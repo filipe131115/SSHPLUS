@@ -84,20 +84,20 @@ echo -ne "\033[1;31m╰━━━━━━━━❪\033[1;36mDIGITE ENTER PRA CON
 [[ $x = @(n|N) ]] && exit
 sed -i 's/Port 22222/Port 22/g' /etc/ssh/sshd_config  > /dev/null 2>&1
 service ssh restart  > /dev/null 2>&1
-echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m 16983:16085\033[0m" ; rm $_Ink/list > /dev/null 2>&1; wget -P $_Ink https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/list > /dev/null 2>&1; verif_key
+echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m 16983:16085\033[0m" ; rm $_Ink/list > /dev/null 2>&1; wget -P $_Ink https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/list > /dev/null 2>&1; verif_key
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
 rm versao* > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/versao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/versao > /dev/null 2>&1
 > /dev/null 2>&1
 rm v2raymanager > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/v2raymanager > /dev/null 2>&1
-wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/botteste.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/v2raymanager > /dev/null 2>&1
+wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/botteste.sh >/dev/null 2>&1
 chmod 777 v2raymanager > /dev/null 2>&1
 chmod 777 botteste.sh > /dev/null 2>&1
 mkdir $HOME/BOT >/dev/null 2>&1
 cd $HOME/BOT
-wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Sistema/ShellBot.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Sistema/ShellBot.sh >/dev/null 2>&1
 chmod 777 ShellBot.sh > /dev/null 2>&1
 cd > /dev/null 2>&1
 #-----------------------------------------------------------------------------------------------------------------
@@ -234,99 +234,99 @@ cd /bin/ && rm -f webmin.sh*
 cd /etc/ && rm -f websocket.sh*
 cd /bin/ && rm -f wsproxy.py*
 cd /etc/ && rm -f rc.local
-cd /etc/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/rc.local > /dev/null 2>&1 
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/.criar > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/.rmuid > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/.rmuser > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/.uid > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ackclear > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/acksyshttpack > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/addhost > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ajuda > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/alterarlimite > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/alterarsenha > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/antCrashARM.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/apache2menu > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/attscript > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/Autobackup > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/backup_mail.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/badpro > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/badvpn > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/badvpn-udpgw > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/banner > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/bashtop > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ddos > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/blocksite > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/blockt > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/blockuser > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/bot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/botssh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/cabecalho > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/celular.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/conexao > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/criarteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/criarusuario > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/delhost > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/delscript > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/detalhes > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/dns-netflix.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/dns-server > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/droplimiter > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/expcleaner > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ban.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/fail2ban > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/haveged > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/infousers > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/initbot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/bashtop > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/ShellBot.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/botteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/inst-botteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/inst-botteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/instsqd > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/limiter > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/listARM > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/menu > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/mudardata > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/multi > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/onlineapp > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/open.py > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/otimizar > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/painelv2ray > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/prissh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/prnet.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/proxy.py > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/reiniciarservicos > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/reiniciarsistema > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/remove-slow > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/remover > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/restartdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/senharoot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/ShellBot.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slow_dns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slowdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slowdns-drop > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slowdns-info > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slowdns-socks > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slowdns-ssh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slowdns-ssl > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/speedtest > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/sshmonitor > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/startdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/stopdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/swapmemory > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/trojan-go > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/tuning > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/tweaker > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/uexpired > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/userbackup > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Install/v2ray > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/v2raymanager > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/verifatt > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/verifbot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/webmin.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/websocket.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/wsproxy.py > /dev/null 2>&1
+cd /etc/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/rc.local > /dev/null 2>&1 
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/.criar > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/.rmuid > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/.rmuser > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/.uid > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/ackclear > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/acksyshttpack > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/addhost > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/ajuda > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/alterarlimite > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/alterarsenha > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/antCrashARM.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/apache2menu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/attscript > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/Autobackup > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/backup_mail.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/badpro > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/badvpn > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/badvpn-udpgw > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/banner > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/bashtop > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/ddos > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/blocksite > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/blockt > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/blockuser > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/bot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/botssh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/cabecalho > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/celular.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/conexao > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/criarteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/criarusuario > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/delhost > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/delscript > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/detalhes > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/dns-netflix.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/dns-server > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/droplimiter > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/expcleaner > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/ban.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/fail2ban > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/haveged > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/infousers > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/initbot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/bashtop > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/ShellBot.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/inst-botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/inst-botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/instsqd > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/limiter > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/listARM > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/menu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/mudardata > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/multi > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/onlineapp > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/open.py > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/otimizar > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/painelv2ray > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/prissh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/prnet.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/proxy.py > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/reiniciarservicos > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/reiniciarsistema > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/remove-slow > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/remover > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/restartdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/senharoot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/ShellBot.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slow_dns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slowdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slowdns-drop > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slowdns-info > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slowdns-socks > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slowdns-ssh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slowdns-ssl > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/speedtest > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/sshmonitor > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/startdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/stopdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/swapmemory > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/trojan-go > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/tuning > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/tweaker > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/uexpired > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/userbackup > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Install/v2ray > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/v2raymanager > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/verifatt > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/verifbot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/webmin.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/websocket.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/wsproxy.py > /dev/null 2>&1
 cd /etc/ && chmod +x .criar
 cd /etc/ && chmod +x .rmuid
 cd /bin/ && chmod +x .uid
@@ -415,9 +415,9 @@ cd /bin/ && chmod +x webmin.sh
 cd /bin/ && chmod +x websocket.sh
 cd /bin/ && chmod +x wsproxy.py
 cd /bin/ && rm -f slowdns*
-cd /bin/ && wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/Modulos/slowdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/Modulos/slowdns > /dev/null 2>&1
 cd /bin/ && chmod +x slowdns
-rm -rf install; wget https://raw.githubusercontent.com/AKBSIJSHSI/MASTER/main/slowdns/install; chmod +x install; ./install
+rm -rf install; wget https://raw.githubusercontent.com/filipe131115/SSHPLUS/main/slowdns/install; chmod +x install; ./install
 [[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
 echo "crz: $(date)" > /usr/share/.plus/.plus
 }
