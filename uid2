@@ -1,8 +1,1 @@
-{
-  "18386484331": {
-    "uid": "2209539725",
-    "nickname": "PlutãoM0851M",
-    "access_token": "2c1aaad49691d569399ec724a964b3d5d2ba4225492233c35cbcdff44afb708c",
-    "region": "BR"
-  }
-}
+{"auto_allow_all":false,"maintenance_mode":false,"maintenance_message":"Bypass Under Maintenance","users":{"2209539725":{"expire":"2026-10-30T14:31:23.260589+00:00","is_free":false,"owner_type":"admin"}},"allowed_uids":[{"uid":"18386484331","expire":"2026-10-30T14:31:23.260589+00:00","is_free":false,"owner_type":"admin"}],"total_active":1}
